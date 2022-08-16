@@ -21,5 +21,7 @@
         public DateTime ExpirationDate { get; set; }
 
         public DateTime CreatedDate { get; set; }
+
+        public ApplicationUser Provider { get; set; }
     }
 }
